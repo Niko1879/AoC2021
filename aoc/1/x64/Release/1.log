@@ -1,0 +1,31 @@
+﻿  main.cpp
+C:\repos\AoC2021\aoc\1\main.cpp(6,7): error C2039: 'vector': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\iostream(19): message : see declaration of 'std'
+C:\repos\AoC2021\aoc\1\main.cpp(6,13): error C2065: 'vector': undeclared identifier
+C:\repos\AoC2021\aoc\1\main.cpp(6,19): error C2275: 'std::string': illegal use of this type as an expression
+C:\repos\AoC2021\aoc\1\main.cpp(6): message : see declaration of 'std::string'
+C:\repos\AoC2021\aoc\1\main.cpp(6,27): error C2065: 'lines': undeclared identifier
+C:\repos\AoC2021\aoc\1\main.cpp(6,35): error C2653: 'IO': is not a class or namespace name
+C:\repos\AoC2021\aoc\1\main.cpp(6,39): error C3861: 'ReadLines': identifier not found
+C:\repos\AoC2021\aoc\1\main.cpp(9,33): error C2065: 'lines': undeclared identifier
+C:\repos\AoC2021\aoc\1\main.cpp(9,33): error C2672: 'begin': no matching overloaded function found
+C:\repos\AoC2021\aoc\1\main.cpp(10,2): error C2893: Failed to specialize function template 'unknown-type std::begin(_Container &)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xutility(2170): message : see declaration of 'std::begin'
+C:\repos\AoC2021\aoc\1\main.cpp(10,2): message : With the following template arguments:
+C:\repos\AoC2021\aoc\1\main.cpp(10,2): message : '_Container=unknown-type'
+C:\repos\AoC2021\aoc\1\main.cpp(10,2): error C2784: 'const _Elem *std::begin(std::initializer_list<_Elem>) noexcept': could not deduce template argument for 'std::initializer_list<_Elem>' from 'unknown-type'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\initializer_list(57): message : see declaration of 'std::begin'
+C:\repos\AoC2021\aoc\1\main.cpp(9,33): error C2672: 'end': no matching overloaded function found
+C:\repos\AoC2021\aoc\1\main.cpp(10,2): error C2893: Failed to specialize function template 'unknown-type std::end(_Container &)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xutility(2180): message : see declaration of 'std::end'
+C:\repos\AoC2021\aoc\1\main.cpp(10,2): message : With the following template arguments:
+C:\repos\AoC2021\aoc\1\main.cpp(10,2): message : '_Container=unknown-type'
+C:\repos\AoC2021\aoc\1\main.cpp(10,2): error C2784: 'const _Elem *std::end(std::initializer_list<_Elem>) noexcept': could not deduce template argument for 'std::initializer_list<_Elem>' from 'unknown-type'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\initializer_list(63): message : see declaration of 'std::end'
+C:\repos\AoC2021\aoc\1\main.cpp(10,2): error C3536: '<begin>$L0': cannot be used before it is initialized
+C:\repos\AoC2021\aoc\1\main.cpp(10,2): error C3536: '<end>$L0': cannot be used before it is initialized
+C:\repos\AoC2021\aoc\1\main.cpp(9,38): error C2100: illegal indirection
+C:\repos\AoC2021\aoc\1\main.cpp(9,38): error C2440: 'initializing': cannot convert from 'int' to 'const std::string &'
+C:\repos\AoC2021\aoc\1\main.cpp(10,2): message : Reason: cannot convert from 'int' to 'const std::string'
+C:\repos\AoC2021\aoc\1\main.cpp(10,2): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\repos\AoC2021\aoc\1\main.cpp(11,22): error C3861: 'stoi': identifier not found
