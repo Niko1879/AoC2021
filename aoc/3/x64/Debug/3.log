@@ -1,0 +1,3 @@
+﻿  count.cpp
+C:\repos\AoC2021\aoc\3\count.cpp(38,19): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+  3.vcxproj -> C:\repos\AoC2021\aoc\x64\Debug\3.exe
