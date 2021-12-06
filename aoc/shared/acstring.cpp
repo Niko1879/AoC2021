@@ -1,6 +1,6 @@
 #include "acstring.h"
 
-namespace acstring
+namespace AcString
 {
 	std::vector<std::string> Split(const std::string& str, const std::string& delim)
 	{
@@ -15,5 +15,26 @@ namespace acstring
 		if (last < str.size())
 			tokens.push_back(str.substr(last));
 		return tokens;
+	}
+
+	std::vector<std::vector<std::string>> Split(const std::vector<std::string> lines, const std::string& delim)
+	{
+		std::vector<std::vector<std::string>> groups;
+		groups.push_back(std::vector<std::string>());
+
+		for (const std::string& line : lines)
+		{
+			if (line == delim)
+			{
+				groups.push_back(std::vector<std::string>());
+			}
+
+			else
+			{
+				groups.back().push_back(line);
+			}
+		}
+
+		return groups;
 	}
 }
